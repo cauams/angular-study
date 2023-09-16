@@ -3,7 +3,7 @@
 
     <app-header [sidenav]="sidenav"></app-header>
 
-    <mat-sidenav-container>
+    <mat-sidenav-container class="sidenav-container">
 
         <mat-sidenav #sidenav class="w-10p">
 
@@ -14,6 +14,14 @@
                         <a href="/">Home</a>
                     </div>
                 </mat-list-item>
+                <mat-divider></mat-divider>
+                <mat-list-item (click)="sidenav.toggle()">
+                    <mat-icon matListItemIcon class="sidenav-icon">category</mat-icon>
+                    <div class="sidenav-text" matListItemLine>
+                        <a href="/category">Category</a>
+                    </div>
+                </mat-list-item>
+                <mat-divider></mat-divider>
             </mat-list>
 
         </mat-sidenav>
@@ -22,7 +30,6 @@
         
         <mat-sidenav-content>
 
-            <h1>aplicação de teste xdxd</h1>
             <router-outlet></router-outlet>
 
         </mat-sidenav-content>
