@@ -1,0 +1,7 @@
+.footer-container {
+    justify-content: flex-end;
+}
+
+.footer-text {
+    font-size: 12px;
+}

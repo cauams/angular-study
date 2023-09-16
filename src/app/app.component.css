@@ -1,0 +1,35 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 18px;
+}
+
+.h-500 {
+    height: 500px;
+}
+
+.sidenav-text {
+    margin-left: 1%;
+}
+
+.sidenav-icon {
+    padding: 1%;
+    margin-right: 24px;
+}
+
+.list-item-container {
+    margin: 2px;
+}
