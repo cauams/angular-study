@@ -11,14 +11,14 @@
                 <mat-list-item (click)="sidenav.toggle()">
                     <mat-icon matListItemIcon class="sidenav-icon">home</mat-icon>
                     <div class="sidenav-text" matListItemLine>
-                        <a href="/">Home</a>
+                        <a [routerLink]="['/']">Home</a>
                     </div>
                 </mat-list-item>
                 <mat-divider></mat-divider>
                 <mat-list-item (click)="sidenav.toggle()">
                     <mat-icon matListItemIcon class="sidenav-icon">category</mat-icon>
                     <div class="sidenav-text" matListItemLine>
-                        <a href="/category">Category</a>
+                        <a [routerLink]="['/category']">Category</a>
                     </div>
                 </mat-list-item>
                 <mat-divider></mat-divider>
